@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "iconsDinamicMenu";
+  src: url("menu_icons_font.eot");
+  src: url("menu_icons_font.eot?#iefix") format("embedded-opentype"),
+    url("menu_icons_font.woff2") format("woff2"),
+    url("menu_icons_font.woff") format("woff"),
+    url("menu_icons_font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+:root {
+  --bodyBg: #D4D4D4;
+  --bodyBg2: #ededed;
+  --bodyTxt: #000;
+  --dominantBg: #dcdcdc;
+  --dominantBg2: #f5f5f5;
+  --dominantBg3: #ffffff;
+  --dominantTxt: #000;
+  --accentBg: #00A208;
+  --accentBg2: #00d50b;
+  --accentTxt: #fff;
+  --icoSize: 46px;
+}
+
+.dynamic_icon {
+  font-family: "iconsDinamicMenu";
+  font-size: 46px;
+  line-height: 0.8;
+}
+
+
+.icon_demo:hover {
+  background: var(--dominantBg2);
+  border-color: var(--accentBg);
+}
+
+.icon_demo>strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.icon_demo_e {
+  background: var(--dominantBg2);
+  border: 1px solid var(--dominantBg3);
+  row-gap: 12px;
+  border-radius: 12px;
+}
+
+[class^="dynamic_icon"],
+[class*=" dynamic_icon"],
+.dynamic_icon {
+  font-family: "iconsDinamicMenu";
+  display: inline-block;
+  flex-shrink: 0;
+  width: var(--icoSize);
+  height: var(--icoSize);
+  font-size: 46px;
+  line-height: 0.8;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: ltr !important;
+  content: "\E0000";
+
+}
