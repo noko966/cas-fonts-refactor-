@@ -17,12 +17,7 @@ def scale_glyph(glyph, descent):
     orig_height = bbox[3] - bbox[1]
 
     codepoint = f"{glyph.unicode:04X}"
-    # prop = dir(glyph)
     # print(orig_width, orig_height, glyph.width, glyph.vwidth, codepoint)
-
-    
-
-    
 
     scale_factor_width = target_size / orig_width if orig_width != 0 else 1
     scale_factor_height = target_size / orig_height if orig_height != 0 else 1
@@ -32,17 +27,6 @@ def scale_glyph(glyph, descent):
     scale_matrix = (scale_factor, 0, 0, scale_factor, 0, 0)
 
     glyph.transform(scale_matrix)
-
-
-    
-
-
-    
-
-
-    # glyph.transform(scale_matrix)
-
-    
 
     glyph.width = target_size
     glyph.vwidth = target_size
@@ -58,22 +42,12 @@ def scale_glyph(glyph, descent):
 
     translate_x = -bboxT[0] + left_offset
     translate_y = -bboxT[1] + top_offset
-
-
     print(codepoint)
-    # print(orig_width, orig_height)
-    # print(glyph.width, glyph.vwidth)
-    # print(glyph.width, glyph.vwidth)
-    
-
-    # glyph.transform((1, 0, 0, 1, 0, -translate_y))
 
     offset_left = bboxT[0]
     offset_top =  -1 * (descent + bboxT[1])
     glyph.transform((1, 0, 0, 1, -offset_left, offset_top))
 
-
-    
     bboxA = glyph.boundingBox()
 
     vect_h = 1000 - abs(bboxA[3] + abs(bboxA[1]))
@@ -85,8 +59,8 @@ def scale_glyph(glyph, descent):
 
     glyph.transform((1, 0, 0, 1, 0, vect_h_half))
 
-    # glyph.width = target_size
-    # glyph.vwidth = target_size
+    glyph.width = target_size
+    glyph.vwidth = target_size
 
 
 def export_glyphs_as_svg(font_path, svg_path):

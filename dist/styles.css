@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "iconsDinamicMenu";
   src: url("menu_icons_font.eot");
@@ -7,24 +8,25 @@
     url("menu_icons_font.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 
 
 
-:root {
-  --bodyBg: #D4D4D4;
-  --bodyBg2: #ededed;
-  --bodyTxt: #000;
-  --dominantBg: #dcdcdc;
-  --dominantBg2: #f5f5f5;
-  --dominantBg3: #ffffff;
-  --dominantTxt: #000;
-  --accentBg: #00A208;
-  --accentBg2: #00d50b;
-  --accentTxt: #fff;
-  --icoSize: 46px;
+:root{
+  --bodyBg: #121212;
+  --bodyBg2: #334655;
+  --bodyBg3: #445c6f;
+  --bodyTxt: #ccc;
+  --dominantBg: #0b293d;
+  --dominantBg2: #14496d;
+  --dominantBg3: #286a96;
+  --dominantTxt: #fefefe;
+  --accentBg: #00b6ff;
+  --accentBg2: #33454d;
+  --accentTxt: rgba(0, 0, 0, 0.97);
+  --icoSize: 24px;
 }
 
 .dynamic_icon {
@@ -35,33 +37,29 @@
 
 
 .icon_demo:hover {
-  background: var(--dominantBg2);
-  border-color: var(--accentBg);
 }
 
-.icon_demo>strong {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.icon_demo > strong {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
-
 .icon_demo_e {
-  background: var(--dominantBg2);
-  border: 1px solid var(--dominantBg3);
-  row-gap: 12px;
-  border-radius: 12px;
+    background: var(--dominantBg2);
+    border: 1px solid var(--dominantBg3);
+    row-gap: 12px;
+    border-radius: 12px; 
 }
 
-[class^="dynamic_icon"],
-[class*=" dynamic_icon"],
-.dynamic_icon {
+[class^="cw_icon"],
+[class*=" cw_icon"],
+.cw_icon {
   font-family: "iconsDinamicMenu";
   display: inline-block;
   flex-shrink: 0;
   width: var(--icoSize);
   height: var(--icoSize);
-  font-size: 46px;
-  line-height: 0.8;
+font-size: calc(var(--icoSize) * 2);
   text-align: center;
   vertical-align: middle;
   font-weight: normal;
@@ -74,5 +72,2029 @@
   -moz-osx-font-smoothing: grayscale;
   direction: ltr !important;
   content: "\E0000";
-
 }
+
+.ico_size-xs{
+    --icoSize: 16px;
+}
+.ico_size-sm{
+    --icoSize: 20px;
+}
+.ico_size-md{
+    --icoSize: 24px;
+}
+.ico_size-lg{
+    --icoSize: 28px;
+}
+.ico_size-xl{
+    --icoSize: 32px;
+}
+
+    .cw_icon_black_jack::before {
+        content: "\E001";  
+    }
+    
+    .cw_icon_affiliate_filled::before {
+        content: "\E002";  
+    }
+    
+    .cw_icon_android_v1::before {
+        content: "\E003";  
+    }
+    
+    .cw_icon_backgammon_dice::before {
+        content: "\E004";  
+    }
+    
+    .cw_icon_baron_suite::before {
+        content: "\E005";  
+    }
+    
+    .cw_icon_prize_monolith_filled::before {
+        content: "\E006";  
+    }
+    
+    .cw_icon_calendar_v1::before {
+        content: "\E007";  
+    }
+    
+    .cw_icon_casino_v1::before {
+        content: "\E008";  
+    }
+    
+    .cw_icon_contact::before {
+        content: "\E009";  
+    }
+    
+    .cw_icon_crash_v1::before {
+        content: "\E00A";  
+    }
+    
+    .cw_icon_deposite::before {
+        content: "\E00B";  
+    }
+    
+    .cw_icon_domino_v1::before {
+        content: "\E00C";  
+    }
+    
+    .cw_icon_esports_v1::before {
+        content: "\E00D";  
+    }
+    
+    .cw_icon_21_game::before {
+        content: "\E00E";  
+    }
+    
+    .cw_icon_hilo_filled::before {
+        content: "\E00F";  
+    }
+    
+    .cw_icon_home_v1::before {
+        content: "\E010";  
+    }
+    
+    .cw_icon_info_v1::before {
+        content: "\E011";  
+    }
+    
+    .cw_icon_ios_v1::before {
+        content: "\E012";  
+    }
+    
+    .cw_icon_keno_express_v1::before {
+        content: "\E013";  
+    }
+    
+    .cw_icon_keno_v1::before {
+        content: "\E014";  
+    }
+    
+    .cw_icon_live_casino_v1::before {
+        content: "\E015";  
+    }
+    
+    .cw_icon_live_chat::before {
+        content: "\E016";  
+    }
+    
+    .cw_icon_live_score_v1::before {
+        content: "\E017";  
+    }
+    
+    .cw_icon_live_tv_v2::before {
+        content: "\E018";  
+    }
+    
+    .cw_icon_live_sport::before {
+        content: "\E019";  
+    }
+    
+    .cw_icon_rsp::before {
+        content: "\E01A";  
+    }
+    
+    .cw_icon_minesweeper::before {
+        content: "\E01B";  
+    }
+    
+    .cw_icon_penalty_v1::before {
+        content: "\E01C";  
+    }
+    
+    .cw_icon_poker_v1::before {
+        content: "\E01D";  
+    }
+    
+    .cw_icon_promotions::before {
+        content: "\E01E";  
+    }
+    
+    .cw_icon_results_v1::before {
+        content: "\E01F";  
+    }
+    
+    .cw_icon_rocketon_v1::before {
+        content: "\E020";  
+    }
+    
+    .cw_icon_rules::before {
+        content: "\E021";  
+    }
+    
+    .cw_icon_sicbo_v1::before {
+        content: "\E022";  
+    }
+    
+    .cw_icon_skill_games::before {
+        content: "\E023";  
+    }
+    
+    .cw_icon_sports_v1::before {
+        content: "\E024";  
+    }
+    
+    .cw_icon_statistics_v1::before {
+        content: "\E025";  
+    }
+    
+    .cw_icon_support::before {
+        content: "\E026";  
+    }
+    
+    .cw_icon_tv_games::before {
+        content: "\E027";  
+    }
+    
+    .cw_icon_vpn::before {
+        content: "\E028";  
+    }
+    
+    .cw_icon_zeppelin_v1::before {
+        content: "\E029";  
+    }
+    
+    .cw_icon_virtual_sports::before {
+        content: "\E030";  
+    }
+    
+    .cw_icon_virtual_sport_v1::before {
+        content: "\E031";  
+    }
+    
+    .cw_icon_penalty_v2::before {
+        content: "\E032";  
+    }
+    
+    .cw_icon_live_casino_user::before {
+        content: "\E033";  
+    }
+    
+    .cw_icon_keno_v2::before {
+        content: "\E034";  
+    }
+    
+    .cw_icon_casino_v2::before {
+        content: "\E035";  
+    }
+    
+    .cw_icon_affiliate_outlined::before {
+        content: "\E036";  
+    }
+    
+    .cw_icon_zeppelin_v2::before {
+        content: "\E037";  
+    }
+    
+    .cw_icon_tv_games::before {
+        content: "\E038";  
+    }
+    
+    .cw_icon_statistics_v2::before {
+        content: "\E039";  
+    }
+    
+    .cw_icon_sports_v2::before {
+        content: "\E040";  
+    }
+    
+    .cw_icon_rock_scissors_paper::before {
+        content: "\E041";  
+    }
+    
+    .cw_icon_poker_v2::before {
+        content: "\E042";  
+    }
+    
+    .cw_icon_crash_v2::before {
+        content: "\E043";  
+    }
+    
+    .cw_icon_baron_heart::before {
+        content: "\E044";  
+    }
+    
+    .cw_icon_all::before {
+        content: "\E045";  
+    }
+    
+    .cw_icon_prize_filled::before {
+        content: "\E046";  
+    }
+    
+    .cw_icon_chat_v1::before {
+        content: "\E047";  
+    }
+    
+    .cw_icon_blackjack::before {
+        content: "\E048";  
+    }
+    
+    .cw_icon_baron_cards_outline::before {
+        content: "\E049";  
+    }
+    
+    .cw_icon_backgammon_board::before {
+        content: "\E050";  
+    }
+    
+    .cw_icon_android_v2::before {
+        content: "\E051";  
+    }
+    
+    .cw_icon_ios_v2::before {
+        content: "\E052";  
+    }
+    
+    .cw_icon_skillgames::before {
+        content: "\E053";  
+    }
+    
+    .cw_icon_sicbo_v2::before {
+        content: "\E054";  
+    }
+    
+    .cw_icon_rocketon_v2::before {
+        content: "\E055";  
+    }
+    
+    .cw_icon_results_v2::before {
+        content: "\E056";  
+    }
+    
+    .cw_icon_promotion::before {
+        content: "\E057";  
+    }
+    
+    .cw_icon_news_v1::before {
+        content: "\E058";  
+    }
+    
+    .cw_icon_mineswipper::before {
+        content: "\E059";  
+    }
+    
+    .cw_icon_live_italic::before {
+        content: "\E060";  
+    }
+    
+    .cw_icon_live_tv_v1::before {
+        content: "\E061";  
+    }
+    
+    .cw_icon_live_score_v2::before {
+        content: "\E062";  
+    }
+    
+    .cw_icon_keno_express_v2::before {
+        content: "\E063";  
+    }
+    
+    .cw_icon_hilo_outlined::before {
+        content: "\E064";  
+    }
+    
+    .cw_icon_game21::before {
+        content: "\E065";  
+    }
+    
+    .cw_icon_esports_v2::before {
+        content: "\E066";  
+    }
+    
+    .cw_icon_domino_v2::before {
+        content: "\E067";  
+    }
+    
+    .cw_icon_deposit_v1::before {
+        content: "\E068";  
+    }
+    
+    .cw_icon_calendar_v2::before {
+        content: "\E069";  
+    }
+    
+    .cw_icon_prize_outlined::before {
+        content: "\E070";  
+    }
+    
+    .cw_icon_sport_v1::before {
+        content: "\E071";  
+    }
+    
+    .cw_icon_live_wawes::before {
+        content: "\E072";  
+    }
+    
+    .cw_icon_casino_v3::before {
+        content: "\E073";  
+    }
+    
+    .cw_icon_live_casino_v2::before {
+        content: "\E074";  
+    }
+    
+    .cw_icon_virtual_sport_v2::before {
+        content: "\E075";  
+    }
+    
+    .cw_icon_eport::before {
+        content: "\E076";  
+    }
+    
+    .cw_icon_tv_games::before {
+        content: "\E077";  
+    }
+    
+    .cw_icon_games::before {
+        content: "\E078";  
+    }
+    
+    .cw_icon_fast_games_v1::before {
+        content: "\E079";  
+    }
+    
+    .cw_icon_wallet_v1::before {
+        content: "\E080";  
+    }
+    
+    .cw_icon_play_v1::before {
+        content: "\E081";  
+    }
+    
+    .cw_icon_info_v2::before {
+        content: "\E082";  
+    }
+    
+    .cw_icon_puzzle::before {
+        content: "\E083";  
+    }
+    
+    .cw_icon_warning_v1::before {
+        content: "\E084";  
+    }
+    
+    .cw_icon_check_v1::before {
+        content: "\E085";  
+    }
+    
+    .cw_icon_arrow_down_v1::before {
+        content: "\E086";  
+    }
+    
+    .cw_icon_arrow_left_v1::before {
+        content: "\E087";  
+    }
+    
+    .cw_icon_prize_round::before {
+        content: "\E088";  
+    }
+    
+    .cw_icon_close_v1::before {
+        content: "\E089";  
+    }
+    
+    .cw_icon_search_v1::before {
+        content: "\E090";  
+    }
+    
+    .cw_icon_check_v2::before {
+        content: "\E091";  
+    }
+    
+    .cw_icon_prize_outlined_closed::before {
+        content: "\E092";  
+    }
+    
+    .cw_icon_prize_outlined_opened::before {
+        content: "\E093";  
+    }
+    
+    .cw_icon_android_v3::before {
+        content: "\E094";  
+    }
+    
+    .cw_icon_ios::before {
+        content: "\E095";  
+    }
+    
+    .cw_icon_file_copy::before {
+        content: "\E096";  
+    }
+    
+    .cw_icon_arrow_right_v1::before {
+        content: "\E097";  
+    }
+    
+    .cw_icon_arrow_left_v2::before {
+        content: "\E098";  
+    }
+    
+    .cw_icon_arrow_down_v2::before {
+        content: "\E099";  
+    }
+    
+    .cw_icon_arrow_up::before {
+        content: "\E100";  
+    }
+    
+    .cw_icon_arrow_down_v3::before {
+        content: "\E101";  
+    }
+    
+    .cw_icon_arrow_up_v1::before {
+        content: "\E102";  
+    }
+    
+    .cw_icon_arrow_right_v2::before {
+        content: "\E103";  
+    }
+    
+    .cw_icon_arrow_left_v3::before {
+        content: "\E104";  
+    }
+    
+    .cw_icon_close_v2::before {
+        content: "\E105";  
+    }
+    
+    .cw_icon_arrow_up_v2::before {
+        content: "\E106";  
+    }
+    
+    .cw_icon_filter_v1::before {
+        content: "\E108";  
+    }
+    
+    .cw_icon_expand::before {
+        content: "\E109";  
+    }
+    
+    .cw_icon_view::before {
+        content: "\E110";  
+    }
+    
+    .cw_icon_view_col::before {
+        content: "\E111";  
+    }
+    
+    .cw_icon_view_grid::before {
+        content: "\E112";  
+    }
+    
+    .cw_icon_envelope_v1::before {
+        content: "\E113";  
+    }
+    
+    .cw_icon_more_v1::before {
+        content: "\E114";  
+    }
+    
+    .cw_icon_like_v1::before {
+        content: "\E115";  
+    }
+    
+    .cw_icon_star_v1::before {
+        content: "\E116";  
+    }
+    
+    .cw_icon_prize_round_outlined::before {
+        content: "\E117";  
+    }
+    
+    .cw_icon_file::before {
+        content: "\E118";  
+    }
+    
+    .cw_icon_arrows::before {
+        content: "\E119";  
+    }
+    
+    .cw_icon_settings_v1::before {
+        content: "\E120";  
+    }
+    
+    .cw_icon_search_v2::before {
+        content: "\E121";  
+    }
+    
+    .cw_icon_refresh_v1::before {
+        content: "\E122";  
+    }
+    
+    .cw_icon_key_v1::before {
+        content: "\E123";  
+    }
+    
+    .cw_icon_upload_v1::before {
+        content: "\E124";  
+    }
+    
+    .cw_icon_lock::before {
+        content: "\E125";  
+    }
+    
+    .cw_icon_download_v1::before {
+        content: "\E126";  
+    }
+    
+    .cw_icon_play_v2::before {
+        content: "\E127";  
+    }
+    
+    .cw_icon_trash_v1::before {
+        content: "\E128";  
+    }
+    
+    .cw_icon_ok::before {
+        content: "\E129";  
+    }
+    
+    .cw_icon_deposit_v2::before {
+        content: "\E130";  
+    }
+    
+    .cw_icon_time::before {
+        content: "\E131";  
+    }
+    
+    .cw_icon_domino_v3::before {
+        content: "\E132";  
+    }
+    
+    .cw_icon_sport_v2::before {
+        content: "\E133";  
+    }
+    
+    .cw_icon_belot::before {
+        content: "\E134";  
+    }
+    
+    .cw_icon_slot::before {
+        content: "\E135";  
+    }
+    
+    .cw_icon_esport::before {
+        content: "\E136";  
+    }
+    
+    .cw_icon_play_v3::before {
+        content: "\E137";  
+    }
+    
+    .cw_icon_clock_v1::before {
+        content: "\E138";  
+    }
+    
+    .cw_icon_search_v3::before {
+        content: "\E139";  
+    }
+    
+    .cw_icon_add-user::before {
+        content: "\E140";  
+    }
+    
+    .cw_icon_user_v1::before {
+        content: "\E141";  
+    }
+    
+    .cw_icon_ball_v1::before {
+        content: "\E142";  
+    }
+    
+    .cw_icon_rassault-rifle::before {
+        content: "\E143";  
+    }
+    
+    .cw_icon_whistle::before {
+        content: "\E144";  
+    }
+    
+    .cw_icon_home_v2::before {
+        content: "\E145";  
+    }
+    
+    .cw_icon_seven::before {
+        content: "\E146";  
+    }
+    
+    .cw_icon_poker_v3::before {
+        content: "\E147";  
+    }
+    
+    .cw_icon_card_v1::before {
+        content: "\E148";  
+    }
+    
+    .cw_icon_horse::before {
+        content: "\E149";  
+    }
+    
+    .cw_icon_rocket::before {
+        content: "\E150";  
+    }
+    
+    .cw_icon_poker_v4::before {
+        content: "\E151";  
+    }
+    
+    .cw_icon_card_v2::before {
+        content: "\E152";  
+    }
+    
+    .cw_icon_dice_v1::before {
+        content: "\E153";  
+    }
+    
+    .cw_icon_lottery::before {
+        content: "\E154";  
+    }
+    
+    .cw_icon_bowling::before {
+        content: "\E155";  
+    }
+    
+    .cw_icon_blackjack::before {
+        content: "\E156";  
+    }
+    
+    .cw_icon_growth_graph::before {
+        content: "\E157";  
+    }
+    
+    .cw_icon_penalty_v3::before {
+        content: "\E158";  
+    }
+    
+    .cw_icon_dice_v2::before {
+        content: "\E159";  
+    }
+    
+    .cw_icon_down_chevron::before {
+        content: "\E160";  
+    }
+    
+    .cw_icon_diamond::before {
+        content: "\E161";  
+    }
+    
+    .cw_icon_percentage::before {
+        content: "\E162";  
+    }
+    
+    .cw_icon_olive_award::before {
+        content: "\E163";  
+    }
+    
+    .cw_icon_basketball_v1::before {
+        content: "\E164";  
+    }
+    
+    .cw_icon_tennis::before {
+        content: "\E165";  
+    }
+    
+    .cw_icon_baseball::before {
+        content: "\E166";  
+    }
+    
+    .cw_icon_trophy_v1::before {
+        content: "\E167";  
+    }
+    
+    .cw_icon_android_v4::before {
+        content: "\E168";  
+    }
+    
+    .cw_icon_apple::before {
+        content: "\E169";  
+    }
+    
+    .cw_icon_facebook_v1::before {
+        content: "\E170";  
+    }
+    
+    .cw_icon_twitter_v1::before {
+        content: "\E171";  
+    }
+    
+    .cw_icon_instagram_v1::before {
+        content: "\E172";  
+    }
+    
+    .cw_icon_youtube_v1::before {
+        content: "\E173";  
+    }
+    
+    .cw_icon_telegram_v1::before {
+        content: "\E174";  
+    }
+    
+    .cw_icon_whatsapp::before {
+        content: "\E175";  
+    }
+    
+    .cw_icon_smart_phone::before {
+        content: "\E176";  
+    }
+    
+    .cw_icon_arrow_up_v3::before {
+        content: "\E177";  
+    }
+    
+    .cw_icon_cloud::before {
+        content: "\E178";  
+    }
+    
+    .cw_icon_trophy_v2::before {
+        content: "\E179";  
+    }
+    
+    .cw_icon_star_v2::before {
+        content: "\E180";  
+    }
+    
+    .cw_icon_star_filled::before {
+        content: "\E181";  
+    }
+    
+    .cw_icon_table_football::before {
+        content: "\E182";  
+    }
+    
+    .cw_icon_volleyball::before {
+        content: "\E183";  
+    }
+    
+    .cw_icon_ping_pong::before {
+        content: "\E184";  
+    }
+    
+    .cw_icon_handball::before {
+        content: "\E185";  
+    }
+    
+    .cw_icon_football::before {
+        content: "\E186";  
+    }
+    
+    .cw_icon_cricket::before {
+        content: "\E187";  
+    }
+    
+    .cw_icon_dart::before {
+        content: "\E188";  
+    }
+    
+    .cw_icon_floorball::before {
+        content: "\E189";  
+    }
+    
+    .cw_icon_billiard::before {
+        content: "\E190";  
+    }
+    
+    .cw_icon_rugby::before {
+        content: "\E191";  
+    }
+    
+    .cw_icon_arrow_v1::before {
+        content: "\E192";  
+    }
+    
+    .cw_icon_arrow_v2::before {
+        content: "\E193";  
+    }
+    
+    .cw_icon_graph::before {
+        content: "\E194";  
+    }
+    
+    .cw_icon_computer::before {
+        content: "\E195";  
+    }
+    
+    .cw_icon_up-and-down::before {
+        content: "\E196";  
+    }
+    
+    .cw_icon_one::before {
+        content: "\E197";  
+    }
+    
+    .cw_icon_calendar_v3::before {
+        content: "\E198";  
+    }
+    
+    .cw_icon_calculator_v1::before {
+        content: "\E199";  
+    }
+    
+    .cw_icon_calculator_v2::before {
+        content: "\E200";  
+    }
+    
+    .cw_icon_full-screen::before {
+        content: "\E201";  
+    }
+    
+    .cw_icon_maximize::before {
+        content: "\E202";  
+    }
+    
+    .cw_icon_invoice::before {
+        content: "\E203";  
+    }
+    
+    .cw_icon_check_v3::before {
+        content: "\E204";  
+    }
+    
+    .cw_icon_crossed::before {
+        content: "\E205";  
+    }
+    
+    .cw_icon_search_file::before {
+        content: "\E206";  
+    }
+    
+    .cw_icon_fast::before {
+        content: "\E207";  
+    }
+    
+    .cw_icon_desk-bell::before {
+        content: "\E208";  
+    }
+    
+    .cw_icon_double_chevron::before {
+        content: "\E209";  
+    }
+    
+    .cw_icon_clock_v2::before {
+        content: "\E210";  
+    }
+    
+    .cw_icon_heart_v1::before {
+        content: "\E211";  
+    }
+    
+    .cw_icon_grid::before {
+        content: "\E212";  
+    }
+    
+    .cw_icon_like_v2::before {
+        content: "\E213";  
+    }
+    
+    .cw_icon_filter_v2::before {
+        content: "\E214";  
+    }
+    
+    .cw_icon_plus_v1::before {
+        content: "\E215";  
+    }
+    
+    .cw_icon_dots_menu::before {
+        content: "\E216";  
+    }
+    
+    .cw_icon_chat_v2::before {
+        content: "\E217";  
+    }
+    
+    .cw_icon_information::before {
+        content: "\E218";  
+    }
+    
+    .cw_icon_television::before {
+        content: "\E219";  
+    }
+    
+    .cw_icon_pin::before {
+        content: "\E220";  
+    }
+    
+    .cw_icon_football_uniform::before {
+        content: "\E221";  
+    }
+    
+    .cw_icon_chevron::before {
+        content: "\E222";  
+    }
+    
+    .cw_icon_corner::before {
+        content: "\E223";  
+    }
+    
+    .cw_icon_crosshair::before {
+        content: "\E224";  
+    }
+    
+    .cw_icon_web_browser::before {
+        content: "\E225";  
+    }
+    
+    .cw_icon_to-full-screen::before {
+        content: "\E226";  
+    }
+    
+    .cw_icon_full-screen-exit::before {
+        content: "\E227";  
+    }
+    
+    .cw_icon_refresh_v2::before {
+        content: "\E228";  
+    }
+    
+    .cw_icon_add-button::before {
+        content: "\E229";  
+    }
+    
+    .cw_icon_dots::before {
+        content: "\E230";  
+    }
+    
+    .cw_icon_sliders::before {
+        content: "\E231";  
+    }
+    
+    .cw_icon_user_v2::before {
+        content: "\E232";  
+    }
+    
+    .cw_icon_hourglass::before {
+        content: "\E233";  
+    }
+    
+    .cw_icon_eye_v1::before {
+        content: "\E234";  
+    }
+    
+    .cw_icon_eye_v2::before {
+        content: "\E235";  
+    }
+    
+    .cw_icon_key_v2::before {
+        content: "\E236";  
+    }
+    
+    .cw_icon_account::before {
+        content: "\E237";  
+    }
+    
+    .cw_icon_@::before {
+        content: "\E238";  
+    }
+    
+    .cw_icon_phone::before {
+        content: "\E239";  
+    }
+    
+    .cw_icon_user_v3::before {
+        content: "\E240";  
+    }
+    
+    .cw_icon_settings_v2::before {
+        content: "\E241";  
+    }
+    
+    .cw_icon_responsible_gaming::before {
+        content: "\E242";  
+    }
+    
+    .cw_icon_documents::before {
+        content: "\E243";  
+    }
+    
+    .cw_icon_my_card::before {
+        content: "\E244";  
+    }
+    
+    .cw_icon_change_password::before {
+        content: "\E245";  
+    }
+    
+    .cw_icon_chat_v3::before {
+        content: "\E246";  
+    }
+    
+    .cw_icon_google_authentication::before {
+        content: "\E247";  
+    }
+    
+    .cw_icon_deposit_v3::before {
+        content: "\E248";  
+    }
+    
+    .cw_icon_withdrawal_v1::before {
+        content: "\E249";  
+    }
+    
+    .cw_icon_friend_to_friend::before {
+        content: "\E250";  
+    }
+    
+    .cw_icon_transfer_v1::before {
+        content: "\E251";  
+    }
+    
+    .cw_icon_transactions::before {
+        content: "\E252";  
+    }
+    
+    .cw_icon_agent_system::before {
+        content: "\E253";  
+    }
+    
+    .cw_icon_tournament_history::before {
+        content: "\E254";  
+    }
+    
+    .cw_icon_referral_history::before {
+        content: "\E255";  
+    }
+    
+    .cw_icon_prize_v1::before {
+        content: "\E256";  
+    }
+    
+    .cw_icon_tournaments::before {
+        content: "\E257";  
+    }
+    
+    .cw_icon_game_history::before {
+        content: "\E258";  
+    }
+    
+    .cw_icon_map::before {
+        content: "\E259";  
+    }
+    
+    .cw_icon_paper::before {
+        content: "\E260";  
+    }
+    
+    .cw_icon_user_v4::before {
+        content: "\E261";  
+    }
+    
+    .cw_icon_chat_v4::before {
+        content: "\E262";  
+    }
+    
+    .cw_icon_recovery::before {
+        content: "\E263";  
+    }
+    
+    .cw_icon_down::before {
+        content: "\E264";  
+    }
+    
+    .cw_icon_money::before {
+        content: "\E265";  
+    }
+    
+    .cw_icon_cash::before {
+        content: "\E266";  
+    }
+    
+    .cw_icon_menu::before {
+        content: "\E267";  
+    }
+    
+    .cw_icon_envelope_v2::before {
+        content: "\E268";  
+    }
+    
+    .cw_icon_title_v1::before {
+        content: "\E269";  
+    }
+    
+    .cw_icon_shield_v1::before {
+        content: "\E270";  
+    }
+    
+    .cw_icon_chat_v5::before {
+        content: "\E271";  
+    }
+    
+    .cw_icon_locator_v1::before {
+        content: "\E272";  
+    }
+    
+    .cw_icon_questionmark_circle_filled::before {
+        content: "\E273";  
+    }
+    
+    .cw_icon_questionmark_circle::before {
+        content: "\E274";  
+    }
+    
+    .cw_icon_play_v4::before {
+        content: "\E275";  
+    }
+    
+    .cw_icon_ice_hockey::before {
+        content: "\E276";  
+    }
+    
+    .cw_icon_shuttlecock::before {
+        content: "\E277";  
+    }
+    
+    .cw_icon_football_field::before {
+        content: "\E278";  
+    }
+    
+    .cw_icon_internet::before {
+        content: "\E279";  
+    }
+    
+    .cw_icon_list_text::before {
+        content: "\E280";  
+    }
+    
+    .cw_icon_padlock::before {
+        content: "\E281";  
+    }
+    
+    .cw_icon_calendar_v4::before {
+        content: "\E282";  
+    }
+    
+    .cw_icon_backspace_arrow::before {
+        content: "\E283";  
+    }
+    
+    .cw_icon_trophy_v3::before {
+        content: "\E284";  
+    }
+    
+    .cw_icon_envelope_v3::before {
+        content: "\E285";  
+    }
+    
+    .cw_icon_wallet_v2::before {
+        content: "\E286";  
+    }
+    
+    .cw_icon_fund::before {
+        content: "\E287";  
+    }
+    
+    .cw_icon_retro_gamepad::before {
+        content: "\E288";  
+    }
+    
+    .cw_icon_trophy_v4::before {
+        content: "\E289";  
+    }
+    
+    .cw_icon_transfer_v2::before {
+        content: "\E290";  
+    }
+    
+    .cw_icon_notification_v1::before {
+        content: "\E291";  
+    }
+    
+    .cw_icon_coupon_v1::before {
+        content: "\E292";  
+    }
+    
+    .cw_icon_coupon_v2::before {
+        content: "\E293";  
+    }
+    
+    .cw_icon_user_v5::before {
+        content: "\E294";  
+    }
+    
+    .cw_icon_cancel::before {
+        content: "\E295";  
+    }
+    
+    .cw_icon_location::before {
+        content: "\E296";  
+    }
+    
+    .cw_icon_locator_v2::before {
+        content: "\E297";  
+    }
+    
+    .cw_icon_male::before {
+        content: "\E298";  
+    }
+    
+    .cw_icon_female::before {
+        content: "\E299";  
+    }
+    
+    .cw_icon_close_v3::before {
+        content: "\E300";  
+    }
+    
+    .cw_icon_hashtag::before {
+        content: "\E301";  
+    }
+    
+    .cw_icon_clock_v3::before {
+        content: "\E302";  
+    }
+    
+    .cw_icon_check_v4::before {
+        content: "\E303";  
+    }
+    
+    .cw_icon_envelope_v4::before {
+        content: "\E304";  
+    }
+    
+    .cw_icon_trash_v2::before {
+        content: "\E305";  
+    }
+    
+    .cw_icon_title_v2::before {
+        content: "\E306";  
+    }
+    
+    .cw_icon_leaderboard::before {
+        content: "\E307";  
+    }
+    
+    .cw_icon_prize_v2::before {
+        content: "\E308";  
+    }
+    
+    .cw_icon_refresh_v3::before {
+        content: "\E309";  
+    }
+    
+    .cw_icon_live_streaming::before {
+        content: "\E310";  
+    }
+    
+    .cw_icon_layers::before {
+        content: "\E311";  
+    }
+    
+    .cw_icon_backgammon::before {
+        content: "\E312";  
+    }
+    
+    .cw_icon_domino_v4::before {
+        content: "\E313";  
+    }
+    
+    .cw_icon_card_v3::before {
+        content: "\E314";  
+    }
+    
+    .cw_icon_two_hands::before {
+        content: "\E315";  
+    }
+    
+    .cw_icon_scoreboard::before {
+        content: "\E316";  
+    }
+    
+    .cw_icon_mission::before {
+        content: "\E317";  
+    }
+    
+    .cw_icon_game_21::before {
+        content: "\E318";  
+    }
+    
+    .cw_icon_edit_text::before {
+        content: "\E319";  
+    }
+    
+    .cw_icon_copy_v1::before {
+        content: "\E321";  
+    }
+    
+    .cw_icon_refund::before {
+        content: "\E322";  
+    }
+    
+    .cw_icon_gift_v1::before {
+        content: "\E323";  
+    }
+    
+    .cw_icon_settings_v3::before {
+        content: "\E324";  
+    }
+    
+    .cw_icon_power_off::before {
+        content: "\E325";  
+    }
+    
+    .cw_icon_gender::before {
+        content: "\E326";  
+    }
+    
+    .cw_icon_shield_v2::before {
+        content: "\E327";  
+    }
+    
+    .cw_icon_gift_v2::before {
+        content: "\E328";  
+    }
+    
+    .cw_icon_filter_v3::before {
+        content: "\E329";  
+    }
+    
+    .cw_icon_play_v5::before {
+        content: "\E330";  
+    }
+    
+    .cw_icon_no_video::before {
+        content: "\E331";  
+    }
+    
+    .cw_icon_video::before {
+        content: "\E332";  
+    }
+    
+    .cw_icon_user_v6::before {
+        content: "\E333";  
+    }
+    
+    .cw_icon_height_v1::before {
+        content: "\E334";  
+    }
+    
+    .cw_icon_height_v2::before {
+        content: "\E335";  
+    }
+    
+    .cw_icon_weight::before {
+        content: "\E336";  
+    }
+    
+    .cw_icon_cake::before {
+        content: "\E337";  
+    }
+    
+    .cw_icon_bell::before {
+        content: "\E338";  
+    }
+    
+    .cw_icon_info_v3::before {
+        content: "\E339";  
+    }
+    
+    .cw_icon_dimond_cashshow_v1::before {
+        content: "\E340";  
+    }
+    
+    .cw_icon_prize_v3::before {
+        content: "\E341";  
+    }
+    
+    .cw_icon_prize_v4::before {
+        content: "\E342";  
+    }
+    
+    .cw_icon_plus_21::before {
+        content: "\E343";  
+    }
+    
+    .cw_icon_plus_18::before {
+        content: "\E344";  
+    }
+    
+    .cw_icon_envelope_v5::before {
+        content: "\E345";  
+    }
+    
+    .cw_icon_star_v3::before {
+        content: "\E346";  
+    }
+    
+    .cw_icon_star_v4::before {
+        content: "\E347";  
+    }
+    
+    .cw_icon_results_v3::before {
+        content: "\E348";  
+    }
+    
+    .cw_icon_chat_v6::before {
+        content: "\E349";  
+    }
+    
+    .cw_icon_basketball_v2::before {
+        content: "\E350";  
+    }
+    
+    .cw_icon_ball_v2::before {
+        content: "\E351";  
+    }
+    
+    .cw_icon_promotion_with_sound::before {
+        content: "\E352";  
+    }
+    
+    .cw_icon_dollar::before {
+        content: "\E353";  
+    }
+    
+    .cw_icon_clock_v4::before {
+        content: "\E354";  
+    }
+    
+    .cw_icon_user_v7::before {
+        content: "\E355";  
+    }
+    
+    .cw_icon_worning_v1::before {
+        content: "\E356";  
+    }
+    
+    .cw_icon_worning_v2::before {
+        content: "\E357";  
+    }
+    
+    .cw_icon_dimond_cashshow_filled::before {
+        content: "\E358";  
+    }
+    
+    .cw_icon_2fa::before {
+        content: "\E359";  
+    }
+    
+    .cw_icon_whell::before {
+        content: "\E360";  
+    }
+    
+    .cw_icon_call_back::before {
+        content: "\E361";  
+    }
+    
+    .cw_icon_arrow_left_v4::before {
+        content: "\E362";  
+    }
+    
+    .cw_icon_arrow_right_v3::before {
+        content: "\E363";  
+    }
+    
+    .cw_icon_arrow_bottom::before {
+        content: "\E364";  
+    }
+    
+    .cw_icon_arrow_top::before {
+        content: "\E365";  
+    }
+    
+    .cw_icon_triangle_bottom::before {
+        content: "\E366";  
+    }
+    
+    .cw_icon_triangle_top::before {
+        content: "\E367";  
+    }
+    
+    .cw_icon_close_v4::before {
+        content: "\E368";  
+    }
+    
+    .cw_icon_view_filled::before {
+        content: "\E369";  
+    }
+    
+    .cw_icon_view_col_filled::before {
+        content: "\E370";  
+    }
+    
+    .cw_icon_view_grid_filled::before {
+        content: "\E371";  
+    }
+    
+    .cw_icon_copy_v2::before {
+        content: "\E372";  
+    }
+    
+    .cw_icon_dot::before {
+        content: "\E373";  
+    }
+    
+    .cw_icon_refresh_v4::before {
+        content: "\E374";  
+    }
+    
+    .cw_icon_dimond_cashshow_v2::before {
+        content: "\E375";  
+    }
+    
+    .cw_icon_copy_version_2::before {
+        content: "\E376";  
+    }
+    
+    .cw_icon_search_v4::before {
+        content: "\E377";  
+    }
+    
+    .cw_icon_filter_v4::before {
+        content: "\E378";  
+    }
+    
+    .cw_icon_close_v5::before {
+        content: "\E379";  
+    }
+    
+    .cw_icon_gift_v3::before {
+        content: "\E380";  
+    }
+    
+    .cw_icon_gift_v4::before {
+        content: "\E381";  
+    }
+    
+    .cw_icon_live_casino_v3::before {
+        content: "\E382";  
+    }
+    
+    .cw_icon_more_v2::before {
+        content: "\E383";  
+    }
+    
+    .cw_icon_heart_v2::before {
+        content: "\E384";  
+    }
+    
+    .cw_icon_casino_v4::before {
+        content: "\E385";  
+    }
+    
+    .cw_icon_refresh_v5::before {
+        content: "\E386";  
+    }
+    
+    .cw_icon_envelope_v6::before {
+        content: "\E387";  
+    }
+    
+    .cw_icon_trash_v3::before {
+        content: "\E388";  
+    }
+    
+    .cw_icon_trash_v4::before {
+        content: "\E389";  
+    }
+    
+    .cw_icon_skrep::before {
+        content: "\E390";  
+    }
+    
+    .cw_icon_upload_v2::before {
+        content: "\E391";  
+    }
+    
+    .cw_icon_download_v2::before {
+        content: "\E392";  
+    }
+    
+    .cw_icon_amd_dram::before {
+        content: "\E393";  
+    }
+    
+    .cw_icon_try::before {
+        content: "\E394";  
+    }
+    
+    .cw_icon_eur::before {
+        content: "\E395";  
+    }
+    
+    .cw_icon_usd::before {
+        content: "\E396";  
+    }
+    
+    .cw_icon_uah::before {
+        content: "\E397";  
+    }
+    
+    .cw_icon_bot::before {
+        content: "\E398";  
+    }
+    
+    .cw_icon_byn::before {
+        content: "\E399";  
+    }
+    
+    .cw_icon_gbp::before {
+        content: "\E400";  
+    }
+    
+    .cw_icon_gel::before {
+        content: "\E401";  
+    }
+    
+    .cw_icon_inr::before {
+        content: "\E402";  
+    }
+    
+    .cw_icon_irr::before {
+        content: "\E403";  
+    }
+    
+    .cw_icon_kes::before {
+        content: "\E404";  
+    }
+    
+    .cw_icon_kzt::before {
+        content: "\E405";  
+    }
+    
+    .cw_icon_lek::before {
+        content: "\E406";  
+    }
+    
+    .cw_icon_rub::before {
+        content: "\E407";  
+    }
+    
+    .cw_icon_tnd::before {
+        content: "\E408";  
+    }
+    
+    .cw_icon_basket::before {
+        content: "\E409";  
+    }
+    
+    .cw_icon_notification_v2::before {
+        content: "\E410";  
+    }
+    
+    .cw_icon_arrow_up_v4::before {
+        content: "\E411";  
+    }
+    
+    .cw_icon_close_v6::before {
+        content: "\E412";  
+    }
+    
+    .cw_icon_check_v5::before {
+        content: "\E413";  
+    }
+    
+    .cw_icon_checkbox::before {
+        content: "\E414";  
+    }
+    
+    .cw_icon_hexagon::before {
+        content: "\E415";  
+    }
+    
+    .cw_icon_tahminsystem::before {
+        content: "\E416";  
+    }
+    
+    .cw_icon_mr_thimble::before {
+        content: "\E417";  
+    }
+    
+    .cw_icon_golden_r::before {
+        content: "\E418";  
+    }
+    
+    .cw_icon_plincoman::before {
+        content: "\E419";  
+    }
+    
+    .cw_icon_f_mines::before {
+        content: "\E420";  
+    }
+    
+    .cw_icon_facebook_v2::before {
+        content: "\E421";  
+    }
+    
+    .cw_icon_instagram_v2::before {
+        content: "\E422";  
+    }
+    
+    .cw_icon_linkedin::before {
+        content: "\E423";  
+    }
+    
+    .cw_icon_mail::before {
+        content: "\E424";  
+    }
+    
+    .cw_icon_pinterest::before {
+        content: "\E425";  
+    }
+    
+    .cw_icon_reddit::before {
+        content: "\E426";  
+    }
+    
+    .cw_icon_telegram_v2::before {
+        content: "\E427";  
+    }
+    
+    .cw_icon_tiktok_v1::before {
+        content: "\E428";  
+    }
+    
+    .cw_icon_tumblr::before {
+        content: "\E429";  
+    }
+    
+    .cw_icon_twitch::before {
+        content: "\E430";  
+    }
+    
+    .cw_icon_twitter_v2::before {
+        content: "\E431";  
+    }
+    
+    .cw_icon_whatsapp::before {
+        content: "\E432";  
+    }
+    
+    .cw_icon_youtube_v2::before {
+        content: "\E433";  
+    }
+    
+    .cw_icon_youtube_v3::before {
+        content: "\E434";  
+    }
+    
+    .cw_icon_fast_games_v2::before {
+        content: "\E435";  
+    }
+    
+    .cw_icon_tiktok_v2::before {
+        content: "\E436";  
+    }
+    
+    .cw_icon_crash_v3::before {
+        content: "\E437";  
+    }
+    
+    .cw_icon_ninja_crash::before {
+        content: "\E438";  
+    }
+    
+    .cw_icon_not_verified::before {
+        content: "\E439";  
+    }
+    
+    .cw_icon_verified::before {
+        content: "\E440";  
+    }
+    
+    .cw_icon_deposit_v4::before {
+        content: "\E441";  
+    }
+    
+    .cw_icon_withdrawal_v2::before {
+        content: "\E442";  
+    }
+    
+    .cw_icon_add_wallet::before {
+        content: "\E443";  
+    }
+    
+    .cw_icon_tournament::before {
+        content: "\E444";  
+    }
+    
+    .cw_icon_messenger::before {
+        content: "\E445";  
+    }
+    
+    .cw_icon_cosmo_saga::before {
+        content: "\E446";  
+    }
+    
+    .cw_icon_jungle_wheel::before {
+        content: "\E447";  
+    }
+    
+    .cw_icon_magic_dice::before {
+        content: "\E448";  
+    }
+    
+    .cw_icon_roulette::before {
+        content: "\E449";  
+    }
+    
+    .cw_icon_totem::before {
+        content: "\E450";  
+    }
+    
+    .cw_icon_scratch::before {
+        content: "\E451";  
+    }
+    
+    .cw_icon_viber::before {
+        content: "\E452";  
+    }
+    
+    .cw_icon_dimond_jackpot::before {
+        content: "\E453";  
+    }
+    
+    .cw_icon_aviator::before {
+        content: "\E454";  
+    }
+    
+    .cw_icon_coin_flip::before {
+        content: "\E455";  
+    }
+    
+    .cw_icon_threads::before {
+        content: "\E456";  
+    }
+    
+    .cw_icon_minus::before {
+        content: "\E457";  
+    }
+    
+    .cw_icon_plus_v2::before {
+        content: "\E458";  
+    }
+    
+    .cw_icon_equal::before {
+        content: "\E459";  
+    }
+    
+    .cw_icon_spaceman::before {
+        content: "\E460";  
+    }
+    
+    .cw_icon_trusted_browsers::before {
+        content: "\E461";  
+    }
+    
+    .cw_icon_dice_v3::before {
+        content: "\E462";  
+    }
+    
+    .cw_icon_lotto_boom::before {
+        content: "\E463";  
+    }
+    
+    .cw_icon_maestro::before {
+        content: "\E464";  
+    }
+    
+    .cw_icon_providers::before {
+        content: "\E465";  
+    }
+    
+    .cw_icon_pagination_arrow::before {
+        content: "\E466";  
+    }
+    
+    .cw_icon_bingo_star::before {
+        content: "\E467";  
+    }
+    
+    .cw_icon_limbo_boom::before {
+        content: "\E468";  
+    }
+    
+    .cw_icon_turbo_mines::before {
+        content: "\E469";  
+    }
+    
+    .cw_icon_atlantis::before {
+        content: "\E470";  
+    }
+    
+    .cw_icon_hot_gear::before {
+        content: "\E471";  
+    }
+    
+    .cw_icon_tower_rush::before {
+        content: "\E472";  
+    }
+    
+    .cw_icon_sport_bonus::before {
+        content: "\E473";  
+    }
+    
+    .cw_icon_dr._shocker::before {
+        content: "\E474";  
+    }
+    
+    .cw_icon_bet_checker_v2::before {
+        content: "\E475";  
+    }
+    
+    .cw_icon_belote::before {
+        content: "\E476";  
+    }
+    
+    .cw_icon_unknown::before {
+        content: "\E477";  
+    }
+    
+    .cw_icon_unknown::before {
+        content: "\E478";  
+    }
+    
+    .cw_icon_unknown::before {
+        content: "\E479";  
+    }
+    
+    .cw_icon_unknown::before {
+        content: "\E480";  
+    }
+    
+    .cw_icon_branded::before {
+        content: "\E481";  
+    }
+    
+    .cw_icon_exclusive::before {
+        content: "\E482";  
+    }
+    
+    .cw_icon_hot::before {
+        content: "\E483";  
+    }
+    
+    .cw_icon_jackpot::before {
+        content: "\E484";  
+    }
+    
+    .cw_icon_new::before {
+        content: "\E485";  
+    }
+    
+    .cw_icon_popular::before {
+        content: "\E486";  
+    }
+    
+    .cw_icon_premium::before {
+        content: "\E487";  
+    }
+    
+    .cw_icon_prerelease::before {
+        content: "\E488";  
+    }
+    
+    .cw_icon_promo::before {
+        content: "\E489";  
+    }
+    
+    .cw_icon_top::before {
+        content: "\E48A";  
+    }
+    
+    .cw_icon_starlight_filled::before {
+        content: "\E48B";  
+    }
+    
+    .cw_icon_starlight_outlined::before {
+        content: "\E48C";  
+    }
+    
